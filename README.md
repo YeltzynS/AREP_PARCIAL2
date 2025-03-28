@@ -58,11 +58,11 @@ http://localhost:8080
 
 Se crearon tres instancias en EC2
 1. Proxy
-2. MathService1
+2. MathService
 
-Como se observa en la siguiente imagen:
-![](images/instancias.PNG)
+Como se observa en el video
 
+[![parcial2](https://img.youtube.com/vi/OQY_nzfdpYk/0.jpg)](https://youtu.be/OQY_nzfdpYk?si=33NaAYu8JoRCplif)
 
 
 ### Construido con

@@ -49,10 +49,10 @@ mvn package
 ```
 http://localhost:8080
 ```
-![](images/1.PNG)
-![](images/2.PNG)
-![](images/3.PNG)
-![](images/4.PNG)
+![](images/1.png)
+![](images/2.png)
+![](images/3.png)
+![](images/4.png)
 
 ### Despliegue en AWS
 

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Math Services</title>
+</head>
+<body>
+<h1>Math Services</h1>
+
+<form action="/factors" method="get">
+    <h2>Factors Calculator</h2>
+    <div>
+        <label>Number to factorize:</label>
+        <input type="number" name="value" placeholder="Example: 28" required>
+    </div>
+    <button type="submit">Calculate Factors</button>
+</form>
+
+<form action="/primes" method="get">
+    <h2>Primes Calculator</h2>
+    <div>
+        <label>Find primes up to:</label>
+        <input type="number" name="value" placeholder="Example: 50" required>
+    </div>
+    <button type="submit">Calculate Primes</button>
+</form>
+
+<hr>
+
+<h2>Results</h2>
+<div>
+    <h3>Last Operation:</h3>
+    <p th:if="${result} != null">
+        Operation: <span th:text="${result.operation}"></span><br>
+        Input: <span th:text="${result.input}"></span><br>
+        Output: <span th:text="${result.output}"></span>
+    </p>
+    <p th:unless="${result} != null">No calculations performed yet</p>
+</div>
+
+</body>
+</html>
